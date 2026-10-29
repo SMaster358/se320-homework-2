@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.drexel.se320.PropertyTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-29T02:23:54.503Z" hostname="Samuels-MacBook-Air.local" time="0.286">
+  <properties/>
+  <testcase name="checkSingleArrayElt" classname="edu.drexel.se320.PropertyTests" time="0.085"/>
+  <testcase name="targetWorksAtLastElement" classname="edu.drexel.se320.PropertyTests" time="0.022"/>
+  <testcase name="targetLessThanMinFails" classname="edu.drexel.se320.PropertyTests" time="0.008"/>
+  <testcase name="targetGreaterThanMaxFails" classname="edu.drexel.se320.PropertyTests" time="0.02"/>
+  <testcase name="arrayDoesntContainValue" classname="edu.drexel.se320.PropertyTests" time="0.036"/>
+  <testcase name="arrayContainsMultipleInstancesOfTarget" classname="edu.drexel.se320.PropertyTests" time="0.004"/>
+  <testcase name="checkEmptyArray" classname="edu.drexel.se320.PropertyTests" time="0.012"/>
+  <testcase name="correctIndexIsReturned" classname="edu.drexel.se320.PropertyTests" time="0.023"/>
+  <testcase name="targetIsBelowMidpointInArray" classname="edu.drexel.se320.PropertyTests" time="0.023"/>
+  <testcase name="targetWorksAtFirstElement" classname="edu.drexel.se320.PropertyTests" time="0.002"/>
+  <testcase name="arrayContainsValue" classname="edu.drexel.se320.PropertyTests" time="0.02"/>
+  <testcase name="targetIsAboveMidpointInArray" classname="edu.drexel.se320.PropertyTests" time="0.022"/>
+  <system-out><![CDATA[timestamp = 2026-10-28T22:23:54.590074, PropertyTests:checkSingleArrayElt = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 9          | # of all combined edge cases
+edge-cases#tried = 9          | # of edge cases tried in current run
+seed = 842329196969672486     | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.614961, PropertyTests:targetWorksAtLastElement = 
+                              |-----------------------jqwik-----------------------
+tries = 50                    | # of calls to property
+checks = 50                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 2950763444915066689    | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.623700, PropertyTests:targetLessThanMinFails = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -7813082718519157331   | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.643958, PropertyTests:targetGreaterThanMaxFails = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -7279520722929208133   | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.679735, PropertyTests:arrayDoesntContainValue = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 691                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 25         | # of all combined edge cases
+edge-cases#tried = 25         | # of edge cases tried in current run
+seed = -3234831555337296879   | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.684467, PropertyTests:arrayContainsMultipleInstancesOfTarget = 
+                              |-----------------------jqwik-----------------------
+tries = 99                    | # of calls to property
+checks = 89                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 3647439605843100524    | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.697364, PropertyTests:checkEmptyArray = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 9          | # of all combined edge cases
+edge-cases#tried = 9          | # of edge cases tried in current run
+seed = -7188109182187588379   | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.721417, PropertyTests:correctIndexIsReturned = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 321                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 20         | # of all combined edge cases
+edge-cases#tried = 20         | # of edge cases tried in current run
+seed = -265960365548447270    | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.744781, PropertyTests:targetIsBelowMidpointInArray = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 444                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 20         | # of all combined edge cases
+edge-cases#tried = 20         | # of edge cases tried in current run
+seed = -1648075222123259757   | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.747170, PropertyTests:targetWorksAtFirstElement = 
+                              |-----------------------jqwik-----------------------
+tries = 50                    | # of calls to property
+checks = 50                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 5964547876031120492    | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.767089, PropertyTests:arrayContainsValue = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 325                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 25         | # of all combined edge cases
+edge-cases#tried = 25         | # of edge cases tried in current run
+seed = 4165881986745383073    | random seed to reproduce generated values
+
+
+timestamp = 2026-10-28T22:23:54.788825, PropertyTests:targetIsAboveMidpointInArray = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 238                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 16         | # of all combined edge cases
+edge-cases#tried = 16         | # of edge cases tried in current run
+seed = -3980513537643992669   | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
